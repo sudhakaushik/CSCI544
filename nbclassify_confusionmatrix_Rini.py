@@ -81,6 +81,8 @@ else:
 precisionhappy=round(countphappy/count_of_happy_prec,2)
 precisionsad=round(countpsad/count_of_sad_prec,2)
 
+
+
 recallhappy=round(countphappy/count_of_happy,2)
 recallsad=round(countpsad/count_of_sad,2)
 
@@ -112,9 +114,3 @@ else:
 
         accuracy = float(conf_arr[0][0] + conf_arr[1][1]) / (len(input_arr))
 
-#print(precisionspam)
-#print(precisionham)
-#print(recallspam)
-#print(recallham)
-#print(f1spam)
-#print(f1ham)

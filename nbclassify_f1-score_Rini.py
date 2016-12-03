@@ -84,11 +84,11 @@ else:
 # recallsad=round(countpsad/count_of_sad,2)
 #
 # f1happy=round((2*precisionhappy*recallhappy)/(precisionhappy+recallhappy),2)
-# f1ham=round((2*precisionsad*recallsad)/(precisionsad+recallsad),2)
+# f1sad=round((2*precisionsad*recallsad)/(precisionsad+recallsad),2)
 
-#print(precisionspam)
-#print(precisionham)
-#print(recallspam)
-#print(recallham)
-#print(f1spam)
-#print(f1ham)
+#print(precisionhappy)
+#print(precisionsad)
+#print(recallhappy)
+#print(recallsad)
+#print(f1happy)
+#print(f1sad)

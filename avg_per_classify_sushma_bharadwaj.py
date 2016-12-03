@@ -2,10 +2,10 @@ import sys
 import os
 
 file_path = "D:\\data\\dev"
-output_file_path = 'avg_perceptron_output.txt'
+output_file_path = 'avg_perceptron_output_sushma_bharadwaj.txt'
 
 final_weight_dict={}
-ptr_to_learn = open('avg_per_model.txt','r')
+ptr_to_learn = open('avg_per_model_sushma_bharadwaj.txt','r')
 for every_line in ptr_to_learn:
     all_data=every_line.strip().split(' ')
     final_weight_dict[all_data[0]]= all_data[1]

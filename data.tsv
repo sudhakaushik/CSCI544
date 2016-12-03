@@ -1,0 +1,5 @@
+mood	accuracy
+Happy	0.928
+Sad	0.859
+Happy(Confusion)	0.93
+Sad(Confusion)	0.862

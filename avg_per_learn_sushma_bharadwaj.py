@@ -91,7 +91,7 @@ beta = bias-((1/counter)*beta)
 for every_word in u_dict:
     u_dict[every_word] = weight_dict[every_word]-((1/counter)*u_dict[every_word])
 
-f=open('avg_per_model.txt','w')
+f=open('avg_per_model_sushma_bharadwaj.txt','w')
 line = "beta_or_bias_value"+" "+str(beta)
 f.write(line)
 f.write('\n')
